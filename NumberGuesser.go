@@ -5,7 +5,7 @@ import (
     "math/rand"
 )
 
-func main() {
+func NumberGuesser() {
  randomNum := rand.Intn(100)
 
  for{
