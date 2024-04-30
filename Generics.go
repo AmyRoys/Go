@@ -22,7 +22,7 @@ func(l *List[T]) Push(val T){
 	l.next = node
 }
 
-func main() {
+func Gmain() {
 	si := []int{10,20,15,-10}
 	fmt.Println(Index(si, 15))
 
