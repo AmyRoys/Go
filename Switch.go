@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main(){
+func Switchmain(){
 	fmt.Println("When's Saturday?")
 	today := time.Now().Weekday()
 	switch time.Saturday{
