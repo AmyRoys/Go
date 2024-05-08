@@ -5,7 +5,7 @@ import (
 )
 //will print "no channel was ready" until both channels are ready
 //select with a default can become a busy wait problem 
-func main() {
+func BWmain() {
 	c1 := make(chan string)
 	c2 := make(chan string)
 	go func() {
