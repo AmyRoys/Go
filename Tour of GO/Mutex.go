@@ -23,7 +23,7 @@ func(c *SafeCounter) Value(key string) int{
 
 }
 
-func main(){
+func Mmain(){
 	c := SafeCounter{v: make(map[string]int)}
 	for i := 0; i < 1000; i++{
 		go c.Inc("somekey")
