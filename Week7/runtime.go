@@ -4,7 +4,7 @@ import (
     "fmt"
 )
 
-func main() {
+func Rmain() {
     // NumCPU returns the number of logical CPUs usable by the current process
     fmt.Printf("Number of CPUs is %d\n", runtime.NumCPU())
     fmt.Printf("GOMAXPROCS is %d\n", runtime.GOMAXPROCS(0))
